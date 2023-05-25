@@ -1,0 +1,146 @@
+@important url('https://fonts.googleapis.com/css2?family');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    /* border: 1px solid #b65454!important; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* border: 1px solid #b65454!important; */
+
+}
+section, header{
+    background: #3A9B1E!important;
+}
+.index-body{
+    background: yellow!important;
+}
+.survol{
+        background-color: #fff!important;
+        border-radius: 10px!important;
+        overflow: hidden!important;
+        border-top: 2px solid rgba(0, 0, 0, 0.034);
+        box-shadow: 1px 2.8px 2.8px rgba(0, 0, 0, 0.034), 0 2.8px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0,0,0,0.048), 0 12.8px 10.5px rgba(0, 0, 0, 0.58)!important;
+        width: 90%!important;
+        max-width: 100%!important;
+}
+
+.formu{
+    background: white!important;
+}
+.up{
+    background: white;
+    border: 2px solid #3A9B1E;
+}
+.trait{
+    color:white;
+    height: 5px;
+}
+.universite{
+    color: #3A9B1E!important;
+    text-align: center;
+    justify-content: center;
+}
+.slid{
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+}
+/*les bouttons*/
+button{
+    width: 150px!important;
+    height: 40px!important;
+    border-radius: 40px!important;
+    background: #fff;
+    color: #3A9B1E;
+    box-shadow: 0.5px 5px 5px #b9b6b6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+/*formulaire*/
+.formul{
+    background-color: #fff!important;
+    border-radius: 10px!important;
+    overflow: hidden!important;
+    border-top: 2px solid rgba(0, 0, 0, 0.034);
+    box-shadow: 1px 2.8px 2.8px rgba(0, 0, 0, 0.034), 0 2.8px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0,0,0,0.048), 0 12.8px 10.5px rgba(0, 0, 0, 0.58)!important;
+    width: 680px!important;
+    max-width: 100%!important;
+}
+.head{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-control{
+    /* background: #3A9B1E!important; */
+    border: none!important;
+    margin-bottom: 30px!important;
+    display: flex!important;
+}
+
+.tableau{
+    background: #3A9B1E;
+}
+.form-control label{
+    color: black;
+    font-weight: bold!important;
+    font-size: 18px!important;
+    width: 50%!important;
+    padding-top: 10px!important;
+    margin-bottom: 10px;
+    /* text-align: justify!important; */
+    margin-left: 10px!important;
+}
+.form-control input, .genre{
+    width: 50%;
+    margin-left: 60px;
+    border: 2px solid #cbcbcb;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 20px!important;
+    padding: 12px;
+    /* display: block; */
+}
+
+.register{
+    margin-left: 190px!important;
+    /* padding-left: 20px!important; */
+}
+
+.bord-green{
+    width: 150px!important;
+    height: 40px!important;
+    border-radius: 40px!important;
+    background: #fff!important;
+    color: #3A9B1E!important;
+    box-shadow: 0.5px 5px 5px #3A9B1E!important;
+    border: none!important;
+    outline: none!important;
+    cursor: pointer!important;
+    font-size: 1em!important;
+    font-weight: 600!important;
+}
+
+/*footer*/
+footer{
+    margin: 0!important;
+    padding: 0!important;
+    overflow-x: hidden!important;
+    overflow-y: auto!important;
+}
+.down{
+    background: white;
+    text-align: center;
+    color: #064D1B;
+    border: 2px solid #064D1B;
+    font-size: 15px;
+    font-weight: 400;
+}
