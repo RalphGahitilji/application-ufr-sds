@@ -14,4 +14,12 @@ function supprimer(){
     alert("Voulez-vous continuer?");  
 }  
 
+function confirmerModification(id) {
+    if (confirm("Voulez-vous vraiment modifier cet étudiant ?")) {
+        window.location.href = "inscription.php?id=" + id;
+    } else {
+        // Recharge la page sans changer l’URL
+        location.reload();
+    }
+}
 // boutton back-top de la liste

@@ -47,8 +47,17 @@
                         echo"<td>".$rows['Genre']."</td>";
                         echo"<td>".$rows['Entree']."</td>";
                         echo"<td>".$rows['Besoin']."</td>";
-                        echo"<td><a href='modifie.php'><button type='button' onclick='modifier()' class='btn btn-light'>Modifier</button></a></td>";
-                        echo"<td><a href='delete.php'><button type='button' onclick='supprimer()' class='btn btn-danger'>Supprimer</button></a></td>";
+                    // Bouton Modifier avec appel JS
+                        echo "<td>
+                                <button type='button' class='btn btn-light' onclick='confirmerModification(" . $rows['id'] . ")'>Modifier</button>
+                            </td>";
+                        
+                        // Bouton Supprimer inchangé
+                        echo "<td>
+                                <a href='delete.php?id=" . $rows['id'] . "'>
+                                    <button type='button' class='btn btn-danger'>Supprimer</button>
+                                </a>
+                            </td>";
                         $compteur++;
                         echo '</tr>';
                     }
